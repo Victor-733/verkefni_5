@@ -1,0 +1,15 @@
+.box {
+    padding: 1em;
+    margin: 1em;
+}
+fieldset {
+    display: flex;
+    flex-flow: column;
+}
+input {
+    margin-top: 1em;
+}
+label {
+    margin: 1em;
+    margin-left: 0;
+}

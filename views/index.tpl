@@ -13,7 +13,6 @@
         <label for="simi">Símanúmer</label>
             <input type="text" pattern="^(\+354 )?\d{3}[ -]?\d{4}$">
 
-        <legend class="box">Námskeið</legend>
         <label for="matur">Hádegismatur</label>
             <input type="radio" name="matur" value="Já">
             <input type="radio" name="matur" value="Nei">
