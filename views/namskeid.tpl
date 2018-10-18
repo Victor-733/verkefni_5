@@ -1,5 +1,6 @@
 % rebase("base.tpl", title="Staðfesting Skráningu")
 
+        <h3>Upplýsingar</h3>
         <p>Nafn: <b>{{n}}</b></p>
         <p>Heimilisfang: <b>{{h}}</b></p>
         <p>Netfang: <b>{{e}}</b></p>

@@ -5,6 +5,7 @@
 fieldset {
     display: flex;
     flex-flow: column;
+    max-width: 20em;
 }
 input {
     margin-top: 1em;

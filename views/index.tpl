@@ -1,7 +1,7 @@
 % rebase("base.tpl", title="skráningarform")
 <link rel="stylesheet" href="/static/styles.css">
 
-<form method="POST" action="/data">
+<form method="POST" action="data">
     <fieldset>
         <legend class="box">Persónuupplýsingar</legend>
         <label for="nafn">Nafn</label>
@@ -21,4 +21,5 @@
             <input type="checkbox" name="nam">
             <input type="checkbox" name="nam">
     </fieldset>
+    <input type="submit" value="Skrá">
 </form>

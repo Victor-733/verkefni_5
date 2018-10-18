@@ -5,14 +5,14 @@ from sys import argv
 def index():
     return template("index")
 
-@route("/data")
+@post("/data")
 def gogn():
     n = request.forms.get("nafn")
     h = request.forms.get("heimili")
     e = request.forms.get("email")
     s = request.forms.get("simi")
     m = request.forms.get("matur")
-    nam = request.forms.get("námskeið")
+    nam = request.forms.getall("námskeið")
 
     sum = 0
     for i in nam:
