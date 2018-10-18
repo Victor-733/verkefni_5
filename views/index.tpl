@@ -1,4 +1,5 @@
 % rebase("base.tpl", title="skráningarform")
+<link rel="stylesheet" href="/static/styles.css">
 
 <form method="POST" action="/data">
     <fieldset>
