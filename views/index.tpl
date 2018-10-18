@@ -16,7 +16,7 @@
         <label for="matur">Hádegismatur</label>
             <input type="radio" name="matur" value="Já">
             <input type="radio" name="matur" value="Nei">
-        <label for="namskeid">Námskeið</label>
+        <label for="námskeid">Námskeið</label>
             <input type="checkbox" name="nam">
             <input type="checkbox" name="nam">
             <input type="checkbox" name="nam">
