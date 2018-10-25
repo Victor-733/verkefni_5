@@ -1,6 +1,7 @@
 .box {
     padding: 1em;
     margin: 1em;
+    font-family: Helvetica;
 }
 fieldset {
     display: flex;

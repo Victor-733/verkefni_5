@@ -1,21 +1,38 @@
 <link rel="stylesheet" href="/static/styles2.css">
 
 % rebase("base.tpl", title="Staðfesting Skráningu")
+<h3>Upplýsingar</h3>
+<dl>
+    <dt>Nafn</dt>
+    <dd>{{n}}</dd>
 
-        <h3>Upplýsingar</h3>
-        <p>Nafn: <b>{{n}}</b></p>
-        <p>Heimilisfang: <b>{{h}}</b></p>
-        <p>Netfang: <b>{{e}}</b></p>
-        <p>Símanúmer: <b>{{s}}</b></p>
-        <h3>Vinnustofur</h3>
+    <dt>Heimilisfang</dt>
+    <dd>{{h}}</dd>
+
+    <dt>Netfang</dt>
+    <dd>{{e}}</dd>
+
+    <dt>Símanúmer</dt>
+    <dd>{{s}}</dd>
+
+    <dt>Vinnustofur</dt>
+    <dd>
         <ul>
             % for i in nam:
             <li>
                 % if i is not None:
-                <b>{{i}}</b>
+                {{i}}
             % end
             </li>
         %end
         </ul>
-        <p>Hádegisverður: <b>{{m}}</b></p>
-        <p>Verð án Vsk: <b>{{sub}} kr.</b> Verð með Vsk: <b>{{total}} kr.</b></p>
+    </dd>
+
+    <dt>Hádegisverður</dt>
+    <dd>{{m}}</dd>
+
+    <dt>Verð án Vsk</dt>
+    <dd>{{sub}} kr.</dd>
+    <dt>Verð með Vsk</dt>
+    <dd>{{total}} kr.</dd>
+</dl>
