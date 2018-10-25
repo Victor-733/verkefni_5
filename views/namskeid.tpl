@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/static/styles2.css">
+
 % rebase("base.tpl", title="Staðfesting Skráningu")
 
         <h3>Upplýsingar</h3>

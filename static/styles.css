@@ -14,3 +14,6 @@ label {
     margin: 1em;
     margin-left: 0;
 }
+.boxes {
+    align-content: right;
+}
